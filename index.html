@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/main.css">
+  <title>Jogo de Aventura</title>
 </head>
 <body>
+
+  <h1>Jogo de Aventura</h1>
+  
+  <div id="output">
+
+    <div class="hero">
+        <img src="./src/assets/img/guerreiro.png" alt="Guerreiro" class="hero-image">
+        <p>O guerreiro atacou usando espada</p>
+    </div>
     
+    <div class="hero">
+        <img src="./src/assets/img/mago.png" alt="Mago" class="hero-image">
+        <p>O mago atacou usando magia</p>
+    </div>
+    
+    <div class="hero">
+        <img src="./src/assets/img/monge.png" alt="Monge" class="hero-image">
+        <p>O monge atacou usando artes marciais</p>
+    </div>
+    
+    <div class="hero">
+        <img src="./src/assets/img/ninja.png" alt="Ninja" class="hero-image">
+        <p>O ninja atacou usando shuriken</p>
+    </div>
+  </div>
+
+  <script src="./src/scripts/engine.js" defer></script>
+
+  <footer>Imagens por <a href="https://pixabay.com/pt/users/forrestkeel92-23767487/" target="_blank">forrestkeel92</a></footer>
 </body>
 </html>
